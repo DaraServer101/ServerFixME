@@ -1,0 +1,159 @@
+/*body,*/
+/*html {*/
+/*    margin: 0;*/
+/*    height: 100%;*/
+/*    font-family: 'Rubik', sans-serif;*/
+/*}*/
+
+p {
+    margin: 5px;
+}
+
+#banner {
+    height: 100%;
+}
+
+.hero-image {
+     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./banner1.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero-text {
+    width: 75%;
+    font-weight: bold;
+    /*position: absolute;*/
+    height: fit-content;
+    color: white;
+    font-size: 55px;
+    text-shadow: 2px 2px 6px #000000;
+    left: 160px;
+    top: 170px;
+}
+
+.info-box {
+     /*position: absolute;*/
+    width: 100%;
+    height: 760px;
+    left: 0;
+    top: 100%
+}
+
+.back-image {
+     /*position: absolute;*/
+    width: 415px;
+    height: 270px;
+    left: 260px;
+    top: 420px;
+     background-image: url("./banner3.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.front-image {
+     /*position: absolute;*/
+    width: 480px;
+    height: 320px;
+    left: 160px;
+    top: 146px;
+     background-image: url("./banner2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: solid white 5px;
+}
+
+.title-what_we_do {
+     /*position: absolute;*/
+    width: 238px;
+    height: 48px;
+    left: 710px;
+    top: 150px;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.what-we-do {
+     /*position: absolute;*/
+    width: 500px;
+    height: 200px;
+    left: 710px;
+    top: 200px;
+    line-height: 1.6;
+    font-size: 21px;
+    overflow: hidden;
+}
+
+.title-mission {
+     /*position: absolute;*/
+    width: 238px;
+    height: 48px;
+    left: 710px;
+    top: 490px;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.our-mission {
+     /*position: absolute;*/
+    width: 500px;
+    height: 190px;
+    left: 710px;
+    top: 540px;
+    line-height: 1.6;
+    font-size: 21px;
+    overflow: hidden;
+}
+
+#team {
+     /*position: absolute;*/
+    width: 100%;
+    height: 80%;
+    top: 225%;
+}
+
+.team-title {
+    width: 238px;
+    height: 48px;
+     /*position: relative;*/
+    margin: 90px auto;
+    font-weight: 600;
+    font-size: 35px;
+    text-align: center;
+}
+
+.team-box {
+     /*position: absolute;*/
+    width: 90%;
+    height: 400px;
+    top: 200px;
+    left: 5%;
+    text-align: center;
+    display: flex;
+}
+
+.member-box {
+    height: 100%;
+    width: 25%;
+}
+
+.photo {
+    width: 150px;
+    height: 150px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+.team-name {
+    font-size: 17px;
+    font-weight: bolder;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}

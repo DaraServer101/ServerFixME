@@ -1,0 +1,32 @@
+.navbar {
+    background-color: #db5d5d;
+    color: #fff;
+}
+
+.navbar-brand {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #fff;
+}
+
+.navbar-nav {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #fff;
+}
+
+.nav-link {
+    margin-right: 1em;
+    color: #fff;
+}
+
+.form-control {
+    background-color: #fff;
+    color: #333;
+    border: 1px solid #333;
+}
+
+.btn-success {
+    color: #fff;
+    border: 1px solid #000000;
+}
